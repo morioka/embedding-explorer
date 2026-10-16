@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local/generated datasets and projection artifacts
+data/*
+!data/.gitkeep
+*.db
+*.npz
+*.pkl
+*.stamp
+
+# Local model and native build artifacts
+models/
+build/
+*.so
+
+# Local configuration and logs
+.env
+.env.*
+*.log
